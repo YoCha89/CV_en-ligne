@@ -214,7 +214,7 @@ td {
 }
 
 
-#certificat {
+.certificat {
 	width:70%;
 	margin: auto;
 	text-align: center;
@@ -236,7 +236,7 @@ td {
 	font-family: 'NunitoSans-Light';
 	padding-right: 5%;
  	padding-left: 5%;
-}
+	}
 
 
 
@@ -246,12 +246,12 @@ td {
 	background-color: white;
 	position: relative;
 	z-index: 20;
-}
+	}
 
 
 li {
 	padding: 0.5%;
-}
+	}
 
 
 h3 {
@@ -261,7 +261,7 @@ h3 {
 	font-family: 'Montserrat-Medium';
 	padding-right: 5%;
  	padding-left: 5%;
-}
+	}
 
 
 p {
@@ -271,7 +271,26 @@ p {
 	font-family: 'NunitoSans-Light';
 	padding-right: 5%;
  	padding-left: 5%;
+	}
+
+
+#blocFormation {
+	position: relative;
+	z-index: 20;
+	}
+
+#blocLogo{
+
+	width: 10%;
+	padding-top: 2%;
+	padding-left: auto;
 }
+
+#CloudCampus{
+	display:flex;
+	background-color: white;
+	}
+
 
 #titreContact {
 	color:white;
@@ -316,24 +335,29 @@ ul {
 	display:flex;
 }
 
+
 #contactListe {
 	width: 80%;
 }
+
 
 li.map {
 display : list-item;
 list-style-image:url('ic map.png');
 }
 
+
 li.mail {
 display : list-item;
 list-style-image:url('ic mail.png');
 }
 
+
 li.net {
 display : list-item;
 list-style-image:url('ic net.png');
 }
+
 
 li.linkedin {
 	display : list-item;
@@ -344,6 +368,7 @@ li.linkedin {
 	text-decoration: none;
 	color: white;
 }
+
 
 li.tel {
 display : list-item;
