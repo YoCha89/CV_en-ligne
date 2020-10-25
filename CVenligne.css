@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('Polices/Montserrat-Medium.ttf');
+    src: url('Polices/Montserrat-Medium.otf')
+ }
+
+@font-face {
+    font-family: 'NunitoSans-Light';
+    src: url('Polices/NunitoSans-Light.ttf');
+    src: url('Polices/NunitoSans-Light.otf')
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #d0826f;
+	color: white;
+	margin:0;
+}
+
+#nom {
+	font-size: 40px;
+	padding-top: 1%;
+	width: 20%;
+	font-family: 'NunitoSans-Light';
+}
+
+#menu {
+	font-size: 16px;
+	width: 70%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 2%;
+}
+
+#lienMenu {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: 'NunitoSans-Light';
+}
+
+
+#cacheim {
+	z-index: -1;
+}
+
+#banniere {
+	height: 600px;
+	display:flex;
+	text-align: center;
+	flex-direction: column-reverse; 
+	background-color: #d0826f;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+/*background-color: white;
+			#DFE0E0*/
+h1 {
+			text-align: center;
+			z-index: 10;
+			color: white;
+			display: flex;
+			justify-content: center;
+			font-size: 60px;
+			padding-bottom: 2%;
+			font-family: 'Montserrat-Medium';
+			text-shadow: 6px 6px 6px #d0826f;
+		}
+
+#imagebanniere {
+	width: 900px;
+	height: 303px;
+	position: fixed;
+	top:22% ; left: 50% ;
+	margin-left: -450px; 
+}
+
+body {
+	margin: 0;
+	position: relative;
+	z-index: 20;
+	
+}
+
+#t2 {
+		color: white;
+		font-size:17px;
+		background-color: #d0826f;
+		padding: 6px;
+		font-family: 'Montserrat-Medium';
+		margin:0;
+		padding-right: 5%;
+ 		padding-left: 5%;
+ 		position: relative;
+		z-index: 20;
+	}
+
+#fondblanc {
+	background-color: white;
+	position: relative;
+	z-index: 20;
+	margin:0;
+	padding-top:2%;
+	padding-bottom:2%;
+}
+
+#apropos {
+		color:white;
+		font-size:17px;
+		margin:10px;
+		padding-left: 6px;
+		position: relative;
+		z-index: 20;
+		font-family: 'Montserrat-Medium';
+		padding-right: 5%;
+ 		padding-left: 5%;
+	}
+
+#propos {
+	background-color: #3b4358;
+	padding:8px;
+	margin:0;
+	position: relative;
+	z-index: 20;
+	
+}
+
+#cv {
+	height: 213px;
+	width: 150px;
+	margin-right: 10%;
+	margin-bottom: 2%;
+}
+
+
+#proposflex {
+	display: flex;
+	flex-direction: row;
+}
+
+#lienCV {
+	display: flex;
+	flex-direction: column;
+	padding-right: 7%;
+	padding-bottom: 5%;
+}
+
+#accroche {
+	color: white;
+	text-align: justify;
+	font-size: 14px;
+	padding:8px;
+	line-height: 150%;
+	font-family: 'NunitoSans-Light';
+	padding-top: 4%;
+}
+
+
+.competenceFlex{
+	display:flex;
+	flex-direction: row;
+	width: 100%
+}
+
+
+#logLang1 {
+	height: 213px;
+	width: 150px;
+	margin-right: 10%;
+	margin-bottom: 2%;
+}
+
+.figcaptionCertif {
+	color:#D0826f; 
+	font-family: 'NunitoSans-Light'; 
+	font-weight: bold;
+}
+
+
+.soft{
+	display:flex;
+	flex-direction: column;
+	width: 60%;
+	font-family: 'NunitoSans-Light';
+	padding-right: 5%;
+ 	padding-left: 5%;
+}
+
+
+.atout{
+	display:flex;
+	flex-direction: column;
+	width: 40%
+	margin-top : 1%;
+	font-family: 'NunitoSans-Light';
+	padding-right: 5%;
+ 	padding-left: 5%;
+}
+
+
+#tablangage {
+	width:100%;
+	margin: auto;
+	padding-bottom: 5%;
+	text-align: center;
+	color : #3b4358;
+	font-size: 20px;
+	font-family: 'NunitoSans-Light';
+}
+
+
+#certificatPJ {
+	width: 215px;
+	height: 136px;
+}
+
+td {
+	font-family: 'Nunito Light';
+}
+
+
+.certificat {
+	width:70%;
+	margin: auto;
+	text-align: center;
+}
+
+
+#bulletparcours {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: white;
+	position: relative;
+	z-index: 20;
+}
+
+#arc {
+	color : #3b4358;
+	margin-left: 3%;
+	font-size: 14px;
+	font-family: 'NunitoSans-Light';
+	padding-right: 5%;
+ 	padding-left: 5%;
+	}
+
+
+
+#bulletdiplome {
+	padding-bottom: 2%;
+	padding-top: 2%;
+	background-color: white;
+	position: relative;
+	z-index: 20;
+	}
+
+
+li {
+	padding: 0.5%;
+	}
+
+
+h3 {
+	color : #3b4358;
+	margin-left: 1%;
+	font-size: 18px;
+	font-family: 'Montserrat-Medium';
+	padding-right: 5%;
+ 	padding-left: 5%;
+	}
+
+
+p {
+	color : #3b4358;
+	margin-left: 1%;
+	font-size: 14px;
+	font-family: 'NunitoSans-Light';
+	padding-right: 5%;
+ 	padding-left: 5%;
+	}
+
+
+#blocFormation {
+	position: relative;
+	z-index: 20;
+	}
+
+#blocLogo{
+
+	width: 10%;
+	padding-top: 2%;
+	padding-left: auto;
+}
+
+#CloudCampus{
+	display:flex;
+	background-color: white;
+	}
+
+
+#titreContact {
+	color:white;
+	font-size:17px;
+	margin:0px;
+	padding: 6px;
+	z-index: 20;
+	font-family: 'Montserrat-Medium';
+	}
+
+
+#contact {
+	background-color: #3b4358;
+	margin:0;
+	padding-right: 5%;
+ 	padding-left: 5%;
+ 	padding-bottom: 2%;
+ 	position: relative;
+	z-index: 20;
+	}
+
+
+#photo {
+	width:20%;
+	height: 20%;
+	margin-left: 1%;
+	float: left;
+}
+
+
+ul {
+	color : #3b4358;
+	margin-left: 1%;
+	font-size: 14px;
+	font-family: 'NunitoSans-Light';
+	padding-right: 10%;
+ 	padding-left: 5%;
+ 	margin-left: 4%;
+}
+
+#contactPhoto {
+	display:flex;
+}
+
+
+#contactListe {
+	width: 80%;
+}
+
+
+li.map {
+display : list-item;
+list-style-image:url('images/ic map.png');
+}
+
+
+li.mail {
+display : list-item;
+list-style-image:url('images/ic mail.png');
+}
+
+
+li.net {
+display : list-item;
+list-style-image:url('images/ic net.png');
+}
+
+
+li.linkedin {
+	display : list-item;
+	list-style-image:url('images/ic linkedin.png');
+}
+
+#link {
+	text-decoration: none;
+	color: white;
+}
+
+
+li.tel {
+display : list-item;
+list-style-image:url('images/ic tel.png');
+}
